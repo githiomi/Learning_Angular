@@ -9,6 +9,6 @@ export class AppComponent {
 
   title = 'Angular Intro';
 
-  message:string = 'A message coming from the parent app component';
+  message:string = 'A message coming from the main parent app component';
   
 }

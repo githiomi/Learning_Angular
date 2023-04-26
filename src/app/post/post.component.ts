@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class PostComponent {
 
-  @Input() AppMessage:string = "Message";
+  @Input() AppMessage:string = "";
 
 }
