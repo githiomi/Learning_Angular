@@ -3,4 +3,11 @@ div{
     margin: 0 auto;
     background-color: aquamarine;
     font-size: 20px;
+    padding: 2rem;
+}
+
+.post_div{
+    background-color: brown;
+    padding: 2rem;
+    color: white
 }
