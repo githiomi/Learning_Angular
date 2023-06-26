@@ -6,7 +6,20 @@
 
 <br>
 
-<div class="post_div">
-  <!-- {{ message }} -->
-  <app-post [AppMessage] = 'message' (postOutputEmitter) = 'receiveMessage()'></app-post>
+<!-- To enable app routing -->
+<div class="routing">
+  <router-outlet>
+  
+  </router-outlet>
 </div>
+
+<!-- <div class="post_div"> -->
+  <!-- {{ message }} -->
+  <!-- <app-post [AppMessage] = 'message' (postOutputEmitter) = 'receiveMessage()'></app-post>
+</div>
+
+<div class="account_div">
+  <app-account> -->
+    <!-- Account component goes here -->
+  <!-- </app-account>
+</div> -->
