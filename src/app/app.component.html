@@ -8,5 +8,5 @@
 
 <div class="post_div">
   <!-- {{ message }} -->
-  <app-post [AppMessage] = 'message' ></app-post>
+  <app-post [AppMessage] = 'message' (postOutputEmitter) = 'receiveMessage()'></app-post>
 </div>
