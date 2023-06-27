@@ -11,14 +11,13 @@ export class PostComponent implements AfterViewInit {
   postMessage: string = "Message coming from the post component.";
 
   // Set up output 
-  // @Output(PostComponent) postOutputEmitter = new EventEmitter();
-
+  @Output() postOutputEmitter = new EventEmitter();
 
   // Message from parent
   @Input() AppMessage: string = "";
 
   ngAfterViewInit(): void {
-    // this.postOutputEmitter.emit(this.postMessage);
+    this.postOutputEmitter.emit(this.postMessage);
   }
 
 }
