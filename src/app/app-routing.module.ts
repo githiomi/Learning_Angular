@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { AccountComponent } from './components/account/account.component';
+import { RouterModule, Routes } from '@angular/router'; 
 import { PostComponent } from './components/post/post.component';
 
 const routes: Routes = [
   {
-    path: 'account',
-    component: AccountComponent
+    path: 'home',
+    component: PostComponent
   },
   {
-    path: '',
-    component: PostComponent
+    path: '**',
+    redirectTo: 'home'
   }
 ];
 
