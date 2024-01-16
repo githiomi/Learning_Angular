@@ -1,0 +1,49 @@
+{
+    "users": [
+        {
+            "userId": "6a18e8d4-469f-4cf0-9afa-f560b5a7e581",
+            "firstName": "Nabila",
+            "lastName": "Modan",
+            "username": "NMODA728",
+            "age": 55,
+            "gender": "MALE",
+            "emailAddress": "n.modan@alustudent.com",
+            "userRole": "ALUMNI",
+            "address": {
+                "town": "Maputo",
+                "postalCode": 124567,
+                "country": "Mozambique"
+            }
+        },
+        {
+            "userId": "7ca1a214-a593-4952-8637-39e3f1e20a1e",
+            "firstName": "MacDonald",
+            "lastName": "Nyahoja",
+            "username": "MNYAH772",
+            "age": 57,
+            "gender": "MALE",
+            "emailAddress": "m.nyahoja@alustudent.com",
+            "userRole": "ALUMNI",
+            "address": {
+                "town": "Quatre Bornes",
+                "postalCode": 893264,
+                "country": "Mauritius"
+            }
+        },
+        {
+            "userId": "079343ef-aec6-46ea-9013-8324cd4a2385",
+            "firstName": "Daniel",
+            "lastName": "Githiomi",
+            "username": "DGITH356",
+            "age": 16,
+            "gender": "MALE",
+            "emailAddress": "d.githiomi@alustudent.com",
+            "userRole": "ADMIN",
+            "address": {
+                "town": "Grand Baie",
+                "postalCode": 30511,
+                "country": "Mauritius"
+            }
+        }
+    ]
+}
