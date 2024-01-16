@@ -8,6 +8,14 @@ Learning Angular is part of my Angular Curriculum. Content was obtained from You
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
+## Installing Bootstrap for CSS
+
+First you must use npm to install __bootstrap__.
+
+* Run the code: `npm install --save boostrap`
+* (1) In __angular.json__ file, add path to __bootstrap.min.css__ to __styles__ array before the CSS
+* (2) Add the import to the __styles.css__ file as `{import "../../path}"`
+
 ## Running the development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

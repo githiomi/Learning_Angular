@@ -1,11 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Universal Styles */
-button{
+:root {
+    --var-small-padding: 1rem;
+    --gap: 1.5rem;
+    --h1-heading: 1.5rem;
+}
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* button{
     padding: 1rem 1.5rem;
     border: none;
     background-color: black;
     color: white;
     text-transform: uppercase;
     border-radius: .5rem;
+} */
+
+/* Media Queries */
+@media all and (max-width:1000px){
+    :root {
+        --gap : 2rem;
+    }
 }
