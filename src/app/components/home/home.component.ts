@@ -1,11 +1,11 @@
 import { Component, Input, Output, EventEmitter, AfterViewInit } from '@angular/core';
 
 @Component({
-  selector: 'app-post',
-  templateUrl: './post.component.html',
-  styleUrls: ['./post.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class PostComponent implements AfterViewInit {
+export class HomeComponent implements AfterViewInit {
 
   // Message to parent
   postMessage: string = "Message coming from the post component.";
