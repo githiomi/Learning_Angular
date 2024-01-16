@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/pages/home/home.component';
 
 const routes: Routes = [
   {
@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'hooks',
-    loadComponent: () => import('./components/lifecycle-hooks/lifecycle-hooks.component').then( hook => hook.LifecycleHooksComponent),
+    loadComponent: () => import('./components/pages/lifecycle-hooks/lifecycle-hooks.component').then( hook => hook.LifecycleHooksComponent),
     title: 'Lifecycle Hooks'
   },
   {
