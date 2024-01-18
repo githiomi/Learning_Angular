@@ -1,5 +1,9 @@
-button {
-    display: block;
+#home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .mainImage {
@@ -14,13 +18,69 @@ button {
 @keyframes rotate {
     from {
         transform: rotate(0deg) scale(1);
+        border: 1px solid var(--angular-red);
     }
 
     50% {
         transform: rotate(180deg) scale(1.5);
+        border: 1px solid var(--angular-pink);
     }
 
     to {
         transform: rotate(360deg) scale(1);
+        border: 1px solid var(--angular-purple);
     }
+}
+
+/* Lessons */
+.lessons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--gap);
+    width: var(--narrow-width);
+    margin: var(--section-margin) auto;
+}
+
+.lesson {
+    cursor: pointer;
+    border: 1px solid var(--body-text);
+    border-radius: var(--border-corner-radius);
+    padding: .8rem 1rem;
+    animation: border-animate 3s linear infinite;
+}
+
+.lesson:hover {
+    transform: scale(1.03);
+    box-shadow: .5px .5px .5rem var(--angular-pink);
+    transition: all .4s ease-in-out;
+}
+
+.lesson:nth-child(2){
+    animation-direction: reverse;
+    animation-duration: 5s;
+}
+
+@keyframes border-animate {
+    from {
+        border: 1px solid var(--angular-red);
+    }
+
+    25% {
+        border: 1px solid var(--angular-pink);
+    }
+
+    50% {
+        border: 1px solid var(--angular-purple);
+    }
+
+    75% {
+        border: 1px solid var(--angular-pink);
+    }
+
+    to {
+        border: 1px solid var(--angular-red);
+    }
+
 }

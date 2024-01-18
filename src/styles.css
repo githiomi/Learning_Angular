@@ -4,9 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
-    --var-small-padding: 1rem;
     --gap: 1rem;
+    --narrow-width: 60%;
     --h1-heading: 1.5rem;
+    --section-margin: 2rem;
+    --border-corner-radius : 1rem;
+    --var-small-padding: 1rem;
     --background-color: #fdfdfd;
     --body-text: #000000;
     --main-color: #d36e38;
