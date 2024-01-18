@@ -10,10 +10,10 @@ export class AppComponent {
 
   title = 'Angular Intro';
 
-  message:string = 'A message coming from the main parent app component';
+  isDarkMode : boolean = true;
 
-  receiveMessage () {
-    
+  themeChanger(theme : boolean) : void {
+    this.isDarkMode = theme;
   }
-  
+
 }

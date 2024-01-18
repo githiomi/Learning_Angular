@@ -11,8 +11,13 @@
 
         <div class="controls">
 
-            <mat-icon #themeIcon>wb_sunny</mat-icon>
-            <mat-icon>brightness_2</mat-icon>
+            <ng-container *ngIf="isDarkMode; else toLightMode">
+                <mat-icon (click)="changeTheme()">brightness_2</mat-icon>
+            </ng-container>
+
+            <ng-template #toLightMode>
+                <mat-icon (click)="changeTheme()" #isLightMode>wb_sunny</mat-icon>
+            </ng-template>
 
         </div>
     </div>
