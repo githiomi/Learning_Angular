@@ -1,13 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
-
 /* Universal Styles */
 :root {
     --var-small-padding: 1rem;
     --gap: 1.5rem;
     --h1-heading: 1.5rem;
+    --background-color: #fdfdfd;
+    --body-text: #000000;
+    --main-color: #d36e38;
+    --border-radius: 1.3px;
 }
 
-*, *::after, *::before{
+.darkMode {
+    --background-color: #fdfdfd;
+    --body-text: #000000;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -25,18 +45,17 @@ li {
     list-style: none;
 }
 
-/* button{
-    padding: 1rem 1.5rem;
-    border: none;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
-    border-radius: .5rem;
-} */
+.button {
+    border: var(--border-radius) solid var(--main-color);
+}
+
+.button:hover {
+    border: 1rem solid var(--main-color);
+}
 
 /* Media Queries */
-@media all and (max-width:1000px){
+@media all and (max-width:1000px) {
     :root {
-        --gap : 2rem;
+        --gap: 2rem;
     }
 }
