@@ -3,7 +3,7 @@
     <div class="container header">
         <div class="logo">
 
-            <img src="./../../../../assets/Images/logo.png" width="50px" />
+            <img src="./../../../../assets/Images/angular_logo.png" width="50px" />
 
             <span class="title">Learning Angular</span>
 
@@ -22,11 +22,8 @@
 
             <div class="actions">
 
-                <button (click)="changeTheme()">
-                    <mat-icon #themeIcon>wb_sunny</mat-icon>
-                </button>
-
-                <mat-icon>brightness_2</mat-icon>
+                <mat-icon #themeIcon>wb_sunny</mat-icon>
+                <mat-icon (click)="changeTheme()">brightness_2</mat-icon>
 
             </div>
 

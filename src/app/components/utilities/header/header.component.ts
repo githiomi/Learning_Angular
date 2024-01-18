@@ -7,5 +7,7 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 })
 export class HeaderComponent {
 
-
+  changeTheme() {
+    console.log("Changing Theme");
+  }
 }

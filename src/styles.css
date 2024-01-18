@@ -1,27 +1,39 @@
 /* Universal Styles */
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
 :root {
     --var-small-padding: 1rem;
-    --gap: 1.5rem;
+    --gap: 1rem;
     --h1-heading: 1.5rem;
     --background-color: #fdfdfd;
     --body-text: #000000;
     --main-color: #d36e38;
     --border-radius: 1.3px;
+    --angular-red: #f60746;
+    --angular-pink: #ef34e1;
+    --angular-purple: #971ef6;
+    --background-gradient: linear-gradient(to bottom right, var(--background-color), hsla(274, 92%, 54%, 0.5));
 }
 
 .darkMode {
-    --background-color: #fdfdfd;
-    --body-text: #000000;
+    --background-color: #1E1E1E;
+    --body-text: white;
 }
 
 html,
 body {
     height: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+    letter-spacing: -.5px !important;
+    background-color: var(--background-color);
+    color: var(--body-text);
 }
 
 body {
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
 }
 
 *,
@@ -43,14 +55,6 @@ ul {
 
 li {
     list-style: none;
-}
-
-.button {
-    border: var(--border-radius) solid var(--main-color);
-}
-
-.button:hover {
-    border: 1rem solid var(--main-color);
 }
 
 /* Media Queries */
