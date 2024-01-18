@@ -1,4 +1,4 @@
-#header{
+#header {
     height: 70px;
 }
 
@@ -15,13 +15,25 @@
     font-size: var(--h1-heading);
 }
 
-.logo, .controls {
+.logo,
+.controls {
+    cursor: pointer;
     display: flex;
     align-items: center;
     gap: var(--gap);
 }
 
-mat-icon:hover{
+.logo:hover {
+    transform: scale(1.03);
+    color: var(--background-gradient);
+    transition: all var(--animation-duration) ease-in-out;
+}
+
+.logo:hover .title {
+    background-position: 0 100%;
+}
+
+mat-icon:hover {
     color: var(--angular-pink);
-    transition: color .3s ease-in-out;
+    transition: color var(--animation-duration) ease-in-out;
 }
