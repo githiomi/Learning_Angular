@@ -15,13 +15,13 @@
     font-size: var(--h1-heading);
 }
 
-.logo, .controls, .navigation {
+.logo, .controls {
     display: flex;
     align-items: center;
     gap: var(--gap);
 }
 
-.navigation {
-    text-transform: uppercase;
-    font-weight: bold;
+mat-icon:hover{
+    color: var(--angular-pink);
+    transition: color .3s ease-in-out;
 }

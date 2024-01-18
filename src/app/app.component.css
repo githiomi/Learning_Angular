@@ -1,12 +1,11 @@
 div{
     max-width: 1500px;
     margin: 0 auto;
-    background-color: aquamarine;
     font-size: 20px;
     padding: 2rem;
 }
 
 .routing{
-    background-color: brown;
+    height: calc(100vh - 70px);
     color: white;
 }
