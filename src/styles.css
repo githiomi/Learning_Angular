@@ -30,11 +30,11 @@ body {
     letter-spacing: -.5px !important;
     background-color: var(--background-color);
     color: var(--body-text);
+    overflow: hidden;
 }
 
 body {
     margin: 0;
-    /* font-family: Roboto, "Helvetica Neue", sans-serif; */
 }
 
 *,

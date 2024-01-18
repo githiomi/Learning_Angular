@@ -1,3 +1,26 @@
-button{
+button {
     display: block;
+}
+
+.mainImage {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+    border: 2px solid #333;
+    border-radius: 50%;
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(1.5);
+    }
+
+    to {
+        transform: rotate(360deg) scale(1);
+    }
 }
