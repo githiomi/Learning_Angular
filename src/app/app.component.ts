@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ThemesService } from './services/themes.service';
 
 
 @Component({
@@ -10,10 +11,9 @@ export class AppComponent {
 
   title = 'Angular Intro';
 
-  isDarkMode : boolean = true;
+  // Dependancy injection
+  _themesService : ThemesService = inject(ThemesService);
 
-  themeChanger(theme : boolean) : void {
-    this.isDarkMode = theme;
-  }
+  isDarkMode : boolean = this._themesService.isDarkMode();
 
 }

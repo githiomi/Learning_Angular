@@ -1,4 +1,5 @@
-import { AfterViewInit, Component, ElementRef, EventEmitter, Output, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, EventEmitter, Output, ViewChild, inject } from '@angular/core';
+import { ThemesService } from 'src/app/services/themes.service';
 
 @Component({
   selector: 'app-header',
@@ -7,14 +8,11 @@ import { AfterViewInit, Component, ElementRef, EventEmitter, Output, ViewChild }
 })
 export class HeaderComponent {
 
-  // To emit theme to parent
-  @Output() themeEmitter = new EventEmitter<boolean>();
-
-  isDarkMode : boolean = false;
+  // Dependancy injection
+  _themeService: ThemesService = inject(ThemesService);
 
   changeTheme() : void {
-    this.isDarkMode = !this.isDarkMode;
-    this.themeEmitter.emit(this.isDarkMode);
+    this._themeService.changeTheme();
   }
 
 }

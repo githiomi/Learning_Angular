@@ -1,8 +1,12 @@
-<app-header (themeEmitter)="themeChanger($event)"/>
+<div class="app">
 
-{{isDarkMode}}
+  <app-header />
 
-<!-- To enable app routing -->
-<div class="routing container">
-  <router-outlet />
+  {{_themesService.isDarkMode()}}
+
+  <!-- To enable app routing -->
+  <div class="routing container">
+    <router-outlet />
+  </div>
+
 </div>
