@@ -37,7 +37,12 @@
   "pathMappings": {},
   "nxJsonPlugins": [],
   "fileMap": {
-    "nonProjectFiles": [],
+    "nonProjectFiles": [
+      {
+        "file": "README.md",
+        "hash": "10132270498400466030"
+      }
+    ],
     "projectFileMap": {
       "AngularInto": [
         {

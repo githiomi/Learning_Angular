@@ -1,4 +1,4 @@
-# <a href="https://github.com/githiomi/Learning_Angular" target="_blank"><img style="margin: 0px 5px" src="./assets/Images/angular_logo.png" height="40" /></a> Learning Angular
+# <a href="https://github.com/githiomi/Learning_Angular" target="_blank"><img style="margin: 0px 5px" src="./src/assets/Images/angular_logo.png" height="40" /></a> Learning Angular
 
 > Created by <a href="https://www.github.com/githiomi"> Daniel Githiomi </a>
 
@@ -8,7 +8,7 @@ Learning Angular is part of my Angular Curriculum. Content was obtained from You
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
-![Screenshot]('./assets/Images/screenshot.png)
+![Screenshot](./src/assets/Images/screenshot.png)
 
 ## Installing Bootstrap for CSS
 
