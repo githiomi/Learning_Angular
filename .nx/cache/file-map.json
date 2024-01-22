@@ -39,12 +39,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "src/app/components/pages/home/home.component.css",
-        "hash": "18213875869890116537"
+        "file": "src/app/components/pages/home/home.component.html",
+        "hash": "9576832901854220291"
       },
       {
-        "file": "src/app/components/pages/home/home.component.html",
-        "hash": "18202937643597139220"
+        "file": "src/app/components/pages/home/home.component.css",
+        "hash": "13955321673563391634"
       }
     ],
     "projectFileMap": {
@@ -164,7 +164,7 @@
         },
         {
           "file": "src/app/components/pages/home/home.component.html",
-          "hash": "13064357124583285280"
+          "hash": "18202937643597139220"
         },
         {
           "file": "src/app/components/pages/home/home.component.ts",
