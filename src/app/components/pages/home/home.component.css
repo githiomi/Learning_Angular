@@ -58,7 +58,7 @@
     box-shadow: .5px .5px .5rem var(--angular-pink);
 }
 
-.lesson:nth-child(2) {
+.lesson:nth-child(even) {
     animation-direction: reverse;
 }
 
