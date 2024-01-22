@@ -39,8 +39,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "10132270498400466030"
+        "file": "src/app/components/pages/home/home.component.css",
+        "hash": "18213875869890116537"
+      },
+      {
+        "file": "src/app/components/pages/home/home.component.html",
+        "hash": "18202937643597139220"
       }
     ],
     "projectFileMap": {
@@ -67,7 +71,7 @@
         },
         {
           "file": "README.md",
-          "hash": "14614319632785289018"
+          "hash": "10132270498400466030"
         },
         {
           "file": "db/maindb.json",
